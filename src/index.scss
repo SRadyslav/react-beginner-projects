@@ -134,6 +134,12 @@ body {
     transform: translateY(2px);
     box-shadow: none;
   }
+
+  &:disabled {
+    background-color: grey;
+    box-shadow: none;
+    cursor: default;
+  }
 }
 
 .success-block {
